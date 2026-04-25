@@ -6,8 +6,8 @@
 }
   </style>
   <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
+    let produrl = "https://prodlist.2948f9mn4kzy.us-south.codeengine.appdomain.cloud/"
+    let dealerurl = "PASTE_YOUR_DEALERDETAILS_URL_HERE/"
 
     axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
@@ -86,7 +86,6 @@
         })
       }
     }
-    
 
 </script>
 <h1>
@@ -96,7 +95,5 @@
     <div style='margin:6mm;font-size: large;' id='pricing'></div>
 
 </h1>
-
-
 
 </html>
